@@ -61,6 +61,12 @@ bundle install
 ````
 bundle exec gauge specs
 ````
+
+### All specs in parallel
+````
+bundle exec gauge -p specs
+````
+
 This will also compile all the supporting code implementations.
 
 # Copyright
